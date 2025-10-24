@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: web  # ← moved here, not under website
+  output-dir: docs  # ← moved here, not under website
 
 website:
   title: "Sergio Marco | Spatial Biology"
