@@ -1,0 +1,16 @@
+project:
+  type: website
+  output-dir: _site  # ← moved here, not under website
+
+website:
+  title: "Sergio Marco | Spatial Biology"
+  navbar:
+    left:
+      - text: "Home"
+        href: _index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Contact"
+        href: contact.qmd
